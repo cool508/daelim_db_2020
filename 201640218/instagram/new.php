@@ -73,7 +73,7 @@ $layout = file_get_contents($theme['layout']);
     $form_str = "";
 
     $fields = desc($db0, $tablename);
-    // print_r($fields);
+    print_r($fields);
     
     // 1차원 배열...
     foreach($fields as $name) { 
